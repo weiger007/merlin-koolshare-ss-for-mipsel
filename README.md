@@ -13,6 +13,7 @@ PS: mipsel机型的固件下载地址: http://koolshare.cn/forum-96-1.html
 进入路由ssh以后的修改命令如下：
 
 ```
+cd /tmp/
 wget --no-check-certificate https://raw.githubusercontent.com/elmagnificogi/merlin-koolshare-ss-for-mipsel/master/shadowsocks.tar.gz
 tar -zxvf /tmp/shadowsocks.tar.gz
 chmod +x /tmp/shadowsocks/install.sh
